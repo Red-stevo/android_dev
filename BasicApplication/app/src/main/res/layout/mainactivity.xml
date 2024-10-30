@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="-32dp" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="432dp"
+        android:layout_height="745dp"
+        android:contentDescription="@string/background_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dougde"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-16dp" />
+
+    <LinearLayout
+        android:layout_width="434dp"
+        android:layout_height="731dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.5">
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:autoLink="none"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="text"
+            android:text="@string/name"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:translationX="100dp"
+            tools:ignore="PxUsage" />
+
+        <EditText
+            android:id="@+id/editTextText5"
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:autoLink="none"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="text"
+            android:text="@string/reg_no"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:translationX="100dp"
+            tools:ignore="PxUsage" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="368dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center_horizontal"
+        android:autoLink="none"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:scrollHorizontally="false"
+        android:text="@string/hello_word"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:translationX="10dp"
+        tools:ignore="PxUsage"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
