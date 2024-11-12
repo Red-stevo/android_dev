@@ -12,4 +12,7 @@
     <string name="course">Android Development</string>
     <string name="hello_world">Hello World</string>
     <string name="textview">TextView</string>
+
+    <string name="b1Text">Enter URL</string>
+    <string name="b2Text">Next Page</string>
 </resources>

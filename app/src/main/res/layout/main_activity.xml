@@ -11,21 +11,41 @@
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="0dp">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="427dp"
-            android:layout_height="759dp"
-            android:scaleType="centerCrop"
-            tools:layout_editor_absoluteX="-4dp"
-            tools:layout_editor_absoluteY="-7dp"
-            tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="294dp"
-            android:layout_height="118dp"
-            android:text="@string/textview"
-            tools:layout_editor_absoluteX="62dp"
-            tools:layout_editor_absoluteY="473dp" />
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="297dp"
+            android:layout_height="51dp"
+            android:text="@string/b1Text"
+            tools:layout_editor_absoluteX="61dp"
+            tools:layout_editor_absoluteY="179dp" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="295dp"
+            android:layout_height="51dp"
+            android:text="@string/b2Text"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="397dp" />
+
+        <EditText
+            android:id="@+id/readText1"
+            android:layout_width="364dp"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:inputType="text"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="64dp" />
+
+        <EditText
+            android:id="@+id/readText2"
+            android:layout_width="355dp"
+            android:layout_height="82dp"
+            android:ems="10"
+            android:inputType="text"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="260dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
