@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">My Application</string>
+    <string name="app_name">working with intents</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -11,4 +11,5 @@
     <string name="reg_no" tools:ignore="TypographyDashes">C026-01-0931/2022</string>
     <string name="course">Android Development</string>
     <string name="hello_world">Hello World</string>
+    <string name="textview">TextView</string>
 </resources>
